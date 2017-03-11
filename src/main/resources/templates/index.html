@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Jarvis</title>
+</head>
+<body>
+	<header>Here header</header>
+	<main>
+		Here main content
+		
+	</main>
+	<footer>Here footer content</footer>
+	<form th:action="@{/ear}" method="post">
+		<input type="text" name="word"/>
+		<button type="submit">Senden</button>
+	</form>
+</body>
+</html>
