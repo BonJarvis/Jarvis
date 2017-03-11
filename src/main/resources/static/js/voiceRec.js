@@ -5,7 +5,7 @@
 
 // success callback when requesting audio input stream
 function successCallback(stream) {
-    var audioContext = new (window.webkitAudioContext)();
+    var audioContext = new (window.AudioContext)();
 
     // Create an AudioNode from the stream.
     var mediaStreamSource = audioContext.createMediaStreamSource( stream );
