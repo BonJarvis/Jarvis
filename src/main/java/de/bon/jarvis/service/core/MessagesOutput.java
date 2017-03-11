@@ -10,6 +10,9 @@ public class MessagesOutput {
 
 	private List<String> messages = new ArrayList<String>();
 	
+	public MessagesOutput() {
+	}
+	
 	public String pop() {
 		if(messages.isEmpty()){
 			return "";
